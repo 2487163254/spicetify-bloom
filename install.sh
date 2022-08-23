@@ -11,7 +11,7 @@ printf "\n\n"
 
 # Check if $spicePath\Themes\bloom directory exists
 spicePath="$(dirname "$(spicetify -c)")"
-themePath="$spicePath/Themes/bloom"
+themePath="$spicePath/Themes/Bloom"
 if [ -d "$themePath" ]; then
     rm -rf "$themePath"
 fi
